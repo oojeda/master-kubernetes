@@ -5,12 +5,12 @@ metadata:
   namespace: argocd
 spec: 
   destination: 
-    namespace: litethinking
+    namespace: taller3
     server: "https://kubernetes.default.svc"
   project: default
   source: 
     path: product-service-v1
-    repoURL: "https://github.com/jouncato/master-kubernetes.git"
+    repoURL: "https://github.com/oojeda/master-kubernetes.git"
     targetRevision: main
   syncPolicy:
     syncOptions:
