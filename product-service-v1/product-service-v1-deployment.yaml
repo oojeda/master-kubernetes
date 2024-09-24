@@ -14,7 +14,7 @@ spec:
         app: product-service-v1
     spec:
       containers:
-      - image: oojeda/product-service-v1:2
+      - image: oojeda/product-service-v1:3
         name: product-service-v1
         ports:
         - containerPort: 3000
