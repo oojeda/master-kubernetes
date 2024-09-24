@@ -6,6 +6,6 @@ data:
   DB_NAME: "postgress"
   DB_USER: "postgress"
   DB_PASSWORD: "postgress"
-  DB_HOST: "127.0.0.1"
+  DB_HOST: "192.168.1.107"
   DB_PORT: "5432"
   PORT: "3000"
